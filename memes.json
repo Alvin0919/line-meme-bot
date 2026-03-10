@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "description": "placeholder 梗圖一",
+        "tags": "範例,測試",
+        "image_url": "https://via.placeholder.com/1024x1024.png?text=T0001"
+    },
+    {
+        "id": 2,
+        "description": "placeholder 梗圖二",
+        "tags": "範例,測試",
+        "image_url": "https://via.placeholder.com/1024x1024.png?text=T0002"
+    },
+    {
+        "id": 3,
+        "description": "placeholder 梗圖三",
+        "tags": "範例,測試",
+        "image_url": "https://via.placeholder.com/1024x1024.png?text=T0003"
+    },
+    {
+        "id": 4,
+        "description": "placeholder 梗圖四",
+        "tags": "範例,搞笑",
+        "image_url": "https://via.placeholder.com/1024x1024.png?text=T0004"
+    },
+    {
+        "id": 5,
+        "description": "placeholder 梗圖五",
+        "tags": "範例,搞笑",
+        "image_url": "https://via.placeholder.com/1024x1024.png?text=T0005"
+    }
+]

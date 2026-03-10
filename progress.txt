@@ -1,0 +1,23 @@
+# LINE Bot 梗圖機器人 - Progress
+
+## 當前狀態
+- 迭代次數：1
+- 進行中任務：無
+- 已完成任務：1, 2, 3, 4, 5, 6, 7（全部完成）
+
+## 迭代紀錄
+
+### 迭代 1
+- 完成任務 1：建立 app.py、memes.json、requirements.txt、.gitignore、.env.example、Procfile、images/
+- 完成任務 2：Flask webhook + LINE v3 SDK signature 驗證
+- 完成任務 3：關鍵字搜尋（description + tags，最多 20 筆，格式【T0001】描述）
+- 完成任務 4：編號取圖（正則 ^[tT](\d+)$，ImageMessage 回傳）
+- 完成任務 5：隨機抽圖（「抽」→ random.choice → ImageMessage）
+- 完成任務 6：5 筆 placeholder memes.json + images/ 目錄
+- 完成任務 7：git init + .gitignore 含 .env + 無硬編碼 credentials
+- 驗證結果：
+  - ls 全部檔案存在 ✅
+  - python -m py_compile app.py 通過 ✅
+  - memes.json 5 筆資料 ✅
+  - .gitignore 含 .env ✅
+  - credentials 安全檢查通過（grep false positive: os.environ.get 不算硬編碼）✅
