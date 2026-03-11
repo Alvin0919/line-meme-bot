@@ -1,32 +1,140 @@
 [
     {
         "id": 1,
-        "description": "placeholder 梗圖一",
-        "tags": "範例,測試",
-        "image_url": "https://placehold.co/1024x1024.png?text=T0001"
+        "description": "小和尚抱石頭",
+        "tags": "達摩,修行,石頭,努力",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/199910.jpg"
     },
     {
         "id": 2,
-        "description": "placeholder 梗圖二",
-        "tags": "範例,測試",
-        "image_url": "https://placehold.co/1024x1024.png?text=T0002"
+        "description": "你心有不安？！",
+        "tags": "達摩,不安,質問,心",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200208.jpg"
     },
     {
         "id": 3,
-        "description": "placeholder 梗圖三",
-        "tags": "範例,測試",
-        "image_url": "https://placehold.co/1024x1024.png?text=T0003"
+        "description": "若是無緣 何必強求！",
+        "tags": "達摩,無緣,強求,緣分,放下",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200282.jpg"
     },
     {
         "id": 4,
-        "description": "placeholder 梗圖四",
-        "tags": "範例,搞笑",
-        "image_url": "https://placehold.co/1024x1024.png?text=T0004"
+        "description": "一點也不懂尊師重道 自作主張",
+        "tags": "達摩,尊師重道,自作主張,責備",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200327.jpg"
     },
     {
         "id": 5,
-        "description": "placeholder 梗圖五",
-        "tags": "範例,搞笑",
-        "image_url": "https://placehold.co/1024x1024.png?text=T0005"
+        "description": "是迦難大師叫我來出家的",
+        "tags": "達摩,出家,迦難,藉口",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200331_0.jpg"
+    },
+    {
+        "id": 6,
+        "description": "一點主見也沒有 難道你沒有自發性嗎？",
+        "tags": "達摩,主見,自發性,責備,自主",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200332_0.jpg"
+    },
+    {
+        "id": 7,
+        "description": "沒好沒壞 因人而異",
+        "tags": "達摩,因人而異,哲學,智慧",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200333_0.jpg"
+    },
+    {
+        "id": 8,
+        "description": "得道者隨緣不變",
+        "tags": "達摩,隨緣,得道,修行,智慧",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200334_0.jpg"
+    },
+    {
+        "id": 9,
+        "description": "說了半天我看那個人就是你",
+        "tags": "達摩,就是你,指認,吐槽",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200335_0.jpg"
+    },
+    {
+        "id": 10,
+        "description": "你為什麼說話？！",
+        "tags": "達摩,說話,質問,禪",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200336_0.jpg"
+    },
+    {
+        "id": 11,
+        "description": "知者不言 言者不知",
+        "tags": "達摩,知者不言,智慧,哲學,禪",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200337_0.jpg"
+    },
+    {
+        "id": 12,
+        "description": "不要再說了 言語無法說清",
+        "tags": "達摩,言語,說不清,禪,住口",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200394.jpg"
+    },
+    {
+        "id": 13,
+        "description": "無功無德",
+        "tags": "達摩,無功無德,謙虛,梁武帝",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200395_0.jpg"
+    },
+    {
+        "id": 14,
+        "description": "說是有 實際上卻是沒有",
+        "tags": "達摩,有無,哲學,空,禪",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200396_0.jpg"
+    },
+    {
+        "id": 15,
+        "description": "這種功德世上是很難找得到的",
+        "tags": "達摩,功德,難得,稀有",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200397_0.jpg"
+    },
+    {
+        "id": 16,
+        "description": "那就不對了！念經時要心無所求",
+        "tags": "達摩,念經,心無所求,修行,教導",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200398_0.jpg"
+    },
+    {
+        "id": 17,
+        "description": "你心中不要存有怨恨",
+        "tags": "達摩,怨恨,放下,心,修行",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200399_0.jpg"
+    },
+    {
+        "id": 18,
+        "description": "就是你",
+        "tags": "達摩,就是你,指認,命運",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200400_0.jpg"
+    },
+    {
+        "id": 19,
+        "description": "看那看不到的東西",
+        "tags": "達摩,看不到,悟,禪,修行",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200401_0.jpg"
+    },
+    {
+        "id": 20,
+        "description": "聽那聽不到的聲音",
+        "tags": "達摩,聽不到,悟,禪,修行",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200402_0.jpg"
+    },
+    {
+        "id": 21,
+        "description": "知那不知的事物",
+        "tags": "達摩,不知,悟,禪,修行",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200403_0.jpg"
+    },
+    {
+        "id": 22,
+        "description": "只有用心來感受",
+        "tags": "達摩,用心,感受,禪,修行",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200404_0.jpg"
+    },
+    {
+        "id": 23,
+        "description": "我們修道之人必遇心魔",
+        "tags": "達摩,修道,心魔,考驗,修行",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/S__65675271.jpg"
     }
 ]
