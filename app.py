@@ -51,6 +51,23 @@ def handle_message(event):
     with ApiClient(configuration) as api_client:
         line_bot_api = MessagingApi(api_client)
 
+        # 功能 4：使用說明
+        if text in ("說明", "幫助", "help"):
+            help_text = (
+                "【使用說明】\n"
+                "🔍 輸入關鍵字 → 搜尋相關台詞\n"
+                "🔢 輸入 T+編號 → 取得圖片（例如 T3）\n"
+                "🎲 輸入「抽」→ 隨機抽一張圖\n"
+                "❓ 輸入「說明」→ 顯示本說明"
+            )
+            line_bot_api.reply_message(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[TextMessage(text=help_text)],
+                )
+            )
+            return
+
         # 功能 3：隨機抽圖
         if text == "抽":
             meme = random.choice(memes)
@@ -112,8 +129,9 @@ def handle_message(event):
                 for m in results[:20]
             ]
             response = "\n".join(lines)
+            response += "\n\n💡 輸入編號即可取得圖片，例如 T3"
             if len(results) > 20:
-                response += f"\n\n（共 {len(results)} 筆結果，僅顯示前 20 筆）"
+                response += f"\n（共 {len(results)} 筆結果，僅顯示前 20 筆）"
             line_bot_api.reply_message(
                 ReplyMessageRequest(
                     reply_token=event.reply_token,
