@@ -68,6 +68,22 @@ def handle_message(event):
             )
             return
 
+        # 功能 5：全部台詞
+        if text in ("全部台詞", "全部", "列表"):
+            lines = [
+                f"【T{str(m['id']).zfill(4)}】{m['description']}"
+                for m in memes
+            ]
+            response = "📋 全部台詞一覽\n\n" + "\n".join(lines)
+            response += f"\n\n共 {total_count} 筆，輸入編號取得圖片（例如 T3）"
+            line_bot_api.reply_message(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[TextMessage(text=response)],
+                )
+            )
+            return
+
         # 功能 3：隨機抽圖
         if text == "抽":
             meme = random.choice(memes)
