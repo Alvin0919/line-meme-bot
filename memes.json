@@ -316,5 +316,119 @@
         "description": "怎麼？！你小子又想早走啊？",
         "tags": "達摩,早走,吐槽,搞笑,責備",
         "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/201478_0.jpg"
+    },
+    {
+        "id": 54,
+        "description": "不知道",
+        "tags": "梁武帝,不知道,茫然,回答",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/201525.jpg"
+    },
+    {
+        "id": 55,
+        "description": "你為什麼說話？！（師兄弟對望）",
+        "tags": "達摩,說話,質問,師兄弟,禪",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200336.jpg"
+    },
+    {
+        "id": 56,
+        "description": "那就不對了！念經時要心無所求（田間教導）",
+        "tags": "達摩,念經,心無所求,教導,田間,修行",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/200398.jpg"
+    },
+    {
+        "id": 57,
+        "description": "你向我求法 為何不先省悟自己？",
+        "tags": "達摩,求法,省悟,自省,修行",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/203516_0.jpg"
+    },
+    {
+        "id": 58,
+        "description": "若知前世因 今生受的是",
+        "tags": "達摩,前世,因果,今生,命運",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/203517_0.jpg"
+    },
+    {
+        "id": 59,
+        "description": "若知來世果 今生做的是",
+        "tags": "達摩,來世,因果,今生,業報",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/203518_0.jpg"
+    },
+    {
+        "id": 60,
+        "description": "這樣不行 你們必有報應！",
+        "tags": "達摩,報應,警告,因果,和尚",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/203519_0.jpg"
+    },
+    {
+        "id": 61,
+        "description": "走",
+        "tags": "達摩,走,離開,簡潔,命令",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/203520_0.jpg"
+    },
+    {
+        "id": 62,
+        "description": "阿彌陀佛（僧人被圍攻）",
+        "tags": "達摩,阿彌陀佛,圍攻,少林,火把",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/203521_0.jpg"
+    },
+    {
+        "id": 63,
+        "description": "武功和文字都是一樣 有動態和靜態的一面",
+        "tags": "達摩,武功,文字,動靜,壁畫,哲學",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/203522_0.jpg"
+    },
+    {
+        "id": 64,
+        "description": "其實我們日常生活的表現 如吃飯睡覺也離不開這個範圍",
+        "tags": "達摩,日常,吃飯睡覺,修行,少林,練武",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/203523_0.jpg"
+    },
+    {
+        "id": 65,
+        "description": "你們欲想參悟禪機 就要用心觀察",
+        "tags": "達摩,禪機,用心,觀察,修行,少林",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/203524_0.jpg"
+    },
+    {
+        "id": 66,
+        "description": "一舉手一投足也有其禪意存在",
+        "tags": "達摩,禪意,舉手投足,少林,練武",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/203525_0.jpg"
+    },
+    {
+        "id": 67,
+        "description": "一見之後便沒有什麼再可求了",
+        "tags": "達摩,頓悟,無求,開悟,小和尚",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/203526_0.jpg"
+    },
+    {
+        "id": 68,
+        "description": "地水火風皆是空 眼耳見聞鼻嗅舌嘗 身受也非實有",
+        "tags": "達摩,四大皆空,六根,空,禪,智慧",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/203527_0.jpg"
+    },
+    {
+        "id": 69,
+        "description": "不過知道的人多而行道的人少",
+        "tags": "達摩,知行,行道,禪,智慧,實踐",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/203528_0.jpg"
+    },
+    {
+        "id": 70,
+        "description": "說理的人多而悟理的人少",
+        "tags": "達摩,說理,悟理,禪,智慧,領悟",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/203529_0.jpg"
+    },
+    {
+        "id": 71,
+        "description": "所以你不可輕視執迷不悟的人",
+        "tags": "達摩,執迷不悟,輕視,慈悲,教導",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/203530_0.jpg"
+    },
+    {
+        "id": 72,
+        "description": "任何人在一念之間 都會棄惡從善！",
+        "tags": "達摩,一念之間,棄惡從善,善惡,小和尚",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/203531_0.jpg"
     }
 ]
