@@ -94,7 +94,7 @@ def handle_message(event):
                     messages=[
                         ImageMessage(
                             original_content_url=meme["image_url"],
-                            preview_image_url=meme["image_url"],
+                            preview_image_url=meme["preview_url"],
                         )
                     ],
                 )
@@ -113,7 +113,7 @@ def handle_message(event):
                         messages=[
                             ImageMessage(
                                 original_content_url=meme["image_url"],
-                                preview_image_url=meme["image_url"],
+                                preview_image_url=meme["preview_url"],
                             )
                         ],
                     )
