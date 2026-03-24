@@ -13,6 +13,9 @@ from linebot.v3.messaging import (
     ReplyMessageRequest,
     TextMessage,
     ImageMessage,
+    FlexMessage,
+    FlexBubble,
+    FlexImage,
 )
 from linebot.v3.webhooks import MessageEvent, TextMessageContent
 
@@ -92,17 +95,45 @@ def handle_message(event):
                 ReplyMessageRequest(
                     reply_token=event.reply_token,
                     messages=[
-                        ImageMessage(
-                            original_content_url=meme["image_url"],
-                            preview_image_url=meme["preview_url"],
+                        FlexMessage(
+                            alt_text=meme["description"],
+                            contents=FlexBubble(
+                                hero=FlexImage(
+                                    url=meme["image_url"],
+                                    size="full",
+                                    aspect_ratio="20:13",
+                                    aspect_mode="cover",
+                                )
+                            ),
                         )
                     ],
                 )
             )
             return
 
-        # 測試用：輸入「測試圖」回傳公開圖片，確認是否為 Koyeb 問題
+        # 測試用：「測試圖」用 Flex，「測試原」用 ImageMessage，對比差異
         if text == "測試圖":
+            line_bot_api.reply_message(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[
+                        FlexMessage(
+                            alt_text="測試圖片",
+                            contents=FlexBubble(
+                                hero=FlexImage(
+                                    url="https://placehold.co/600x400.jpg",
+                                    size="full",
+                                    aspect_ratio="20:13",
+                                    aspect_mode="cover",
+                                )
+                            ),
+                        )
+                    ],
+                )
+            )
+            return
+
+        if text == "測試原":
             line_bot_api.reply_message(
                 ReplyMessageRequest(
                     reply_token=event.reply_token,
@@ -126,9 +157,16 @@ def handle_message(event):
                     ReplyMessageRequest(
                         reply_token=event.reply_token,
                         messages=[
-                            ImageMessage(
-                                original_content_url=meme["image_url"],
-                                preview_image_url=meme["preview_url"],
+                            FlexMessage(
+                                alt_text=meme["description"],
+                                contents=FlexBubble(
+                                    hero=FlexImage(
+                                        url=meme["image_url"],
+                                        size="full",
+                                        aspect_ratio="20:13",
+                                        aspect_mode="cover",
+                                    )
+                                ),
                             )
                         ],
                     )
