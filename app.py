@@ -12,9 +12,7 @@ from linebot.v3.messaging import (
     MessagingApi,
     ReplyMessageRequest,
     TextMessage,
-    FlexMessage,
-    FlexBubble,
-    FlexImage,
+    ImageMessage,
 )
 from linebot.v3.webhooks import MessageEvent, TextMessageContent
 
@@ -103,16 +101,9 @@ def handle_message(event):
                 ReplyMessageRequest(
                     reply_token=event.reply_token,
                     messages=[
-                        FlexMessage(
-                            alt_text=meme["description"],
-                            contents=FlexBubble(
-                                hero=FlexImage(
-                                    url=meme["image_url"],
-                                    size="full",
-                                    aspect_ratio="20:13",
-                                    aspect_mode="cover",
-                                )
-                            ),
+                        ImageMessage(
+                            original_content_url=meme["image_url"],
+                            preview_image_url=meme["preview_url"],
                         )
                     ],
                 )
@@ -129,16 +120,9 @@ def handle_message(event):
                     ReplyMessageRequest(
                         reply_token=event.reply_token,
                         messages=[
-                            FlexMessage(
-                                alt_text=meme["description"],
-                                contents=FlexBubble(
-                                    hero=FlexImage(
-                                        url=meme["image_url"],
-                                        size="full",
-                                        aspect_ratio="20:13",
-                                        aspect_mode="cover",
-                                    )
-                                ),
+                            ImageMessage(
+                                original_content_url=meme["image_url"],
+                                preview_image_url=meme["preview_url"],
                             )
                         ],
                     )
