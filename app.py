@@ -101,6 +101,22 @@ def handle_message(event):
             )
             return
 
+        # 測試用：輸入「測試圖」回傳公開圖片，確認是否為 Koyeb 問題
+        if text == "測試圖":
+            test_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/280px-PNG_transparency_demonstration_1.png"
+            line_bot_api.reply_message(
+                ReplyMessageRequest(
+                    reply_token=event.reply_token,
+                    messages=[
+                        ImageMessage(
+                            original_content_url=test_url,
+                            preview_image_url=test_url,
+                        )
+                    ],
+                )
+            )
+            return
+
         # 功能 2：編號取圖（t + 數字）
         match = re.match(r"^[tT](\d+)$", text)
         if match:
