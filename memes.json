@@ -532,5 +532,23 @@
         "description": "你目前對自己的處境都不能把握",
         "tags": "達摩,處境,把握,迷惘",
         "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/204643_0.jpg"
+    },
+    {
+        "id": 90,
+        "description": "就算告訴你 你知道也等於不知道！（霧中對話）",
+        "tags": "達摩,不知道,迷惑,霧中,對話",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/204620.jpg"
+    },
+    {
+        "id": 91,
+        "description": "這樣吧 你先把仇恨拋開（國王勸說）",
+        "tags": "仇恨,放下,勸說,國王,智慧",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/204624.jpg"
+    },
+    {
+        "id": 92,
+        "description": "你目前對自己的處境都不能把握（背影）",
+        "tags": "達摩,處境,把握,迷惘,背影",
+        "image_url": "https://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/204643.jpg"
     }
 ]
