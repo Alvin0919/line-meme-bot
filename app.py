@@ -141,7 +141,10 @@ def handle_message(event):
                         ImageMessage(
                             original_content_url="https://placehold.co/600x400.jpg",
                             preview_image_url="https://placehold.co/240x160.jpg",
-                        )
+                        ),
+                        TextMessage(
+                            text="如果上面圖片看不到，請點以下連結確認能否開啟：\nhttps://placehold.co/600x400.jpg\nhttps://envious-aleen-alvin0919-meme-10027fee.koyeb.app/static/images/199910.jpg"
+                        ),
                     ],
                 )
             )
