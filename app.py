@@ -12,7 +12,9 @@ from linebot.v3.messaging import (
     MessagingApi,
     ReplyMessageRequest,
     TextMessage,
-    ImageMessage,
+    FlexMessage,
+    FlexBubble,
+    FlexImage,
 )
 from linebot.v3.webhooks import MessageEvent, TextMessageContent
 
@@ -101,9 +103,16 @@ def handle_message(event):
                 ReplyMessageRequest(
                     reply_token=event.reply_token,
                     messages=[
-                        ImageMessage(
-                            original_content_url=meme["image_url"],
-                            preview_image_url=meme["preview_url"],
+                        FlexMessage(
+                            alt_text=meme["description"],
+                            contents=FlexBubble(
+                                hero=FlexImage(
+                                    url=meme["image_url"],
+                                    size="full",
+                                    aspect_ratio="20:13",
+                                    aspect_mode="cover",
+                                )
+                            ),
                         )
                     ],
                 )
@@ -120,9 +129,16 @@ def handle_message(event):
                     ReplyMessageRequest(
                         reply_token=event.reply_token,
                         messages=[
-                            ImageMessage(
-                                original_content_url=meme["image_url"],
-                                preview_image_url=meme["preview_url"],
+                            FlexMessage(
+                                alt_text=meme["description"],
+                                contents=FlexBubble(
+                                    hero=FlexImage(
+                                        url=meme["image_url"],
+                                        size="full",
+                                        aspect_ratio="20:13",
+                                        aspect_mode="cover",
+                                    )
+                                ),
                             )
                         ],
                     )
