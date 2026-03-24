@@ -22,6 +22,14 @@ from linebot.v3.webhooks import MessageEvent, TextMessageContent
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 31536000  # 1 year cache for static files
 
+
+@app.after_request
+def fix_headers(response):
+    if request.path.startswith('/static/'):
+        response.headers.pop('Content-Disposition', None)
+        response.headers['Access-Control-Allow-Origin'] = '*'
+    return response
+
 configuration = Configuration(
     access_token=os.environ.get("LINE_CHANNEL_ACCESS_TOKEN", "")
 )
