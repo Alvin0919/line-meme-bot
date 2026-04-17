@@ -642,5 +642,47 @@
         "tags": "達摩,處境,把握,迷惘,背影",
         "image_url": "https://raw.githubusercontent.com/Alvin0919/line-meme-bot/master/static/images/204643.jpg",
         "preview_url": "https://raw.githubusercontent.com/Alvin0919/line-meme-bot/master/static/thumbnails/204643.jpg"
+    },
+    {
+        "id": 93,
+        "description": "業障！你們這樣殺來殺去 有完沒完啦！",
+        "tags": "達摩,業障,殺戮,勸阻,輪迴",
+        "image_url": "https://raw.githubusercontent.com/Alvin0919/line-meme-bot/master/static/images/219108_0.jpg",
+        "preview_url": "https://raw.githubusercontent.com/Alvin0919/line-meme-bot/master/static/thumbnails/219108_0.jpg"
+    },
+    {
+        "id": 94,
+        "description": "不變隨緣 隨緣不變",
+        "tags": "達摩,隨緣,不變,智慧,修行",
+        "image_url": "https://raw.githubusercontent.com/Alvin0919/line-meme-bot/master/static/images/219109_0.jpg",
+        "preview_url": "https://raw.githubusercontent.com/Alvin0919/line-meme-bot/master/static/thumbnails/219109_0.jpg"
+    },
+    {
+        "id": 95,
+        "description": "大師之言 一切隨緣不要執著",
+        "tags": "達摩,隨緣,執著,大師,放下",
+        "image_url": "https://raw.githubusercontent.com/Alvin0919/line-meme-bot/master/static/images/219110_0.jpg",
+        "preview_url": "https://raw.githubusercontent.com/Alvin0919/line-meme-bot/master/static/thumbnails/219110_0.jpg"
+    },
+    {
+        "id": 96,
+        "description": "普通人隨緣即變",
+        "tags": "達摩,隨緣,普通人,對比,智慧",
+        "image_url": "https://raw.githubusercontent.com/Alvin0919/line-meme-bot/master/static/images/219111_0.jpg",
+        "preview_url": "https://raw.githubusercontent.com/Alvin0919/line-meme-bot/master/static/thumbnails/219111_0.jpg"
+    },
+    {
+        "id": 97,
+        "description": "過去的已成事實",
+        "tags": "達摩,過去,放下,事實,釋懷",
+        "image_url": "https://raw.githubusercontent.com/Alvin0919/line-meme-bot/master/static/images/219166_0.jpg",
+        "preview_url": "https://raw.githubusercontent.com/Alvin0919/line-meme-bot/master/static/thumbnails/219166_0.jpg"
+    },
+    {
+        "id": 98,
+        "description": "將來的也沒什麼可想",
+        "tags": "達摩,未來,當下,不執著,活在當下",
+        "image_url": "https://raw.githubusercontent.com/Alvin0919/line-meme-bot/master/static/images/219167_0.jpg",
+        "preview_url": "https://raw.githubusercontent.com/Alvin0919/line-meme-bot/master/static/thumbnails/219167_0.jpg"
     }
 ]
